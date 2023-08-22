@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+            
+        <link rel="stylesheet" href="./style.css"/>
+        
+        
+       
+    </head>
+    <body>
+        
+        <div id="header">
+            <div class="container">
+                <nav>
+                <input type="checkbox" id="click">
+                <label for="click" class="checkbtn">
+                    
+                        <i class="bi bi-list"></i>
+                    </label>
+                     <h2 class="logo">Logo.</h2>
+                    <ul class="bhv">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                    </nav>
+                    
+                    
+                 </nav>
+                 <div class="header-text">
+                    <p>Student</p>
+                    <h1>Hey, I'm<span> Bhavani</span><br />from india </h1>
+                 </div>
+            </div>
+
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/down.png.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Bhv is a clever girl.she know about dharm and adharm,
+                            and she respect elders,
+                            she know how to take decisions without others help
+                        She is intelligent girl</p>
+                        <div class="tab-titles">
+                            <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                            <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                            <P class="tab-links" onclick="opentab('education')">Education</P>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>Creating web pages</li>
+                                <li><span>PYTHON</span><br>Back-End Development</li>
+                                <li><span>JAVA</span><br>Back-End Development</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>internshala</span><br>html & css</li>
+                                <li><span>nptl</span><br>java</li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>B.Tech at Indur Institute Of Engineering and Technology</li>
+                                <li><span>2018-2020</span><br>Intermediate from MasterMinds Junior Colloge</li>
+                                <li><span>2018</span><br>Schooling from SRK High School</li>
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------services------------>    
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+         <div class="services-list">
+          <div>
+            <h2>Web Developer </h2>
+            <p>I had created many web pages</p>
+            <a href="#">Learn more</a>
+          </div>  
+          <div>
+            <h2>App Developer </h2>
+            <p>I had created many beautiful apps</p>
+            <a href="#">Learn more</a>
+          </div> 
+          <div>
+            <h2>App Developer </h2>
+            <p>I can able to create many apps within few days</p>
+            <a href="#">Learn more</a>
+          </div>  
+         </div>
+    </div>
+</div> 
+<!--------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           <div class="work">
+            <img src="images/books.jpg">
+            <div class="layer">
+                <h3>Reading Books</h3>
+                <p>I like to read books to increase the knowledge and
+                     to increase my skills</p>
+            </div>
+        
+           </div>
+           <div class="work">
+            <img src="images/drama.jpg">
+            <div class="layer">
+              <h3>Watching Dramas</h3>
+              <p>I like to watch dramas for entertainment purpose
+                and to avoid overthinking
+              </p>
+            </div>
+           </div>
+           <div class="work">
+            <img src="images/music.jpg">
+            <div class=" layer">
+                <h3>Music</h3>
+                <p>I likes to listen musics when i get free time for refreshment purpose
+                    coz,it removes angerness
+                </p>
+            </div>
+           </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!--conatact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" >
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="bi bi-send-fill"></i>bhavaniyamsani6@gmail.com</p>
+                <p><i class="bi bi-telephone-fill"></i>0000000000</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    
+                </div>
+              <a href="images/my cv.pdf.docx" download class="btn btn2">Download CV</a>  
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                <button type="submit" class="btn btn2">Submit</button>             
+              </form>
+              <span id="msg"></span>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <P>Copyright Bhavani.made by bhavani<i class="bi bi-cry-fill"></i>
+            </P>
+        </div>
+    </div>
+  
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+            }
+        </script>
+      <script>
+        const scriptURL =  'https://script.google.com/macros/s/AKfycbz6XKLyIEGP6_EYyLbDO0v2QcB2MdYynYb-3lOUmpzxR5HNLPM8hGFnSZDFPB5F3FR7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+         e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+       msg.innerHTML = "Message sent successfully"
+       setTimeout(function(){
+          msg.innerHTML = ""
+       },5000)
+       form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+      </body>
+
+</html>
